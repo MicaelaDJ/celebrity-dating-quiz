@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Celebrity Dating</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Which Celebrity Should You Date?</h1>
+
+      <p>To find out who you should date, complete the following quiz:</p>
+
+      <form id="quiz">
+        <label for="age">Select your age:</label>
+        <select id="age">
+          <option value="young">30 or younger</option>
+          <option value="middle">older than 30</option>
+        </select>
+        <br>
+        <label for="yourGender">I am a:</label>
+        <select id="yourGender">
+          <option value="female">Woman</option>
+          <option value="male">Man</option>
+        </select>
+        <br>
+        <label for="celebGender">I'm interested in:</label>
+        <select id="celebGender">
+          <option value="female">Women</option>
+          <option value="male">Men</option>
+        </select>
+        <br>
+        <label for="height">Select your height</label>
+        <select id="height">
+          <option value="short">less than 5'4"</option>
+          <option value="medium">between 5'4" and 5'9"</option>
+          <option value="tall">taller than 5'9"</option>
+        </select>
+        <br>
+        <button type="submit" class="btn">Match me with a celebrity!</button>
+      </form>
+
+      <div id="result">
+        <p>Based on your answers, you should date <br> <span id="yourCeleb"></span></p>
+      </div>
+    </div>
+  </body>
+</html>

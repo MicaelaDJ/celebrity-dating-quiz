@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+}
+
+.btn {
+  background-color: lightblue;
+
+}
+
+img {
+  width: 500px;
+  padding: 20px;
+}
+
+#yourCeleb {
+  font-size: 40px;
+}
